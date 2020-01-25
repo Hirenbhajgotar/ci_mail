@@ -14,7 +14,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <body>
 	<nav class="navbar navbar-light bg-light">
-		<a class="navbar-brand" href="#">Navbar</a>
+		<a class="navbar-brand" href="<?= base_url("/") ?>">Navbar</a>
+		<a class="navbar-brand" href="<?= site_url("Tables") ?>">tables</a>
 		<a class="navbar-brand" href="<?= site_url("User") ?>">user</a>
 	</nav>
 	<div id="container">
